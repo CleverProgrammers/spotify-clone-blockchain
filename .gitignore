@@ -39,9 +39,6 @@ yarn-error.log*
 # snyk code quality
 .dccache
 
-# lock files
-yarn.lock
-package-lock.json
 
 target
 
