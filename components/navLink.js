@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const styles = {
   navLink: `flex item-center mb-5 cursor-pointer hover:text-[#fff] text-[#b3b3b3]`,
   navLinkText: `ml-5`,
