@@ -6,14 +6,16 @@ node_modules
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # next.js
-.next/
 out/
+./next
+.next/
+.next
 
 # production
-/build
+build
 
 # misc
 .DS_Store
@@ -34,9 +36,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-
 # snyk code quality
 .dccache
 
@@ -44,10 +43,6 @@ yarn-error.log*
 yarn.lock
 package-lock.json
 
-# anchor specific
-.anchor
-.DS_Store
 target
-**/*.rs.bk
-test-ledger
-target
+
+*.wav

@@ -1,0 +1,84 @@
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: black;
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 10px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.inputContainer {
+  display: flex;
+  border: 1px #ecf1f4 solid;
+  border-radius: 1rem;
+  padding: 0.6rem 0.4rem;
+  background-color: #fafcfc;
+  color: #000;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.button {
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s linear;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
+
+.createButton {
+  background-color: #4e44ce;
+}
+
+.cancelButton {
+  border: 2px #fe2d55 solid;
+  color: #fe2d55;
+}
