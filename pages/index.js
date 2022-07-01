@@ -1,4 +1,4 @@
-import HomePage from './homepage'
+import Login from "../components/Login"
 
 export default function Home() {
   return (
@@ -10,8 +10,7 @@ export default function Home() {
         onVolumeChange={e => updateVolume(e)}
         onTimeUpdate={e => updateProgress(e)}
       />
-      <HomePage />
-      {/* temporarily render homepage before you build Login */}
+      <Login/>
     </div>
   )
 }

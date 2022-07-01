@@ -21,6 +21,7 @@
     "ardrive-core-js": "^1.13.0",
     "autoprefixer": "^10.4.4",
     "axios": "^0.27.2",
+    "bigint-buffer": "^1.1.5",
     "dotenv": "^16.0.0",
     "multiparty": "^4.2.3",
     "next": "12.1.0",
