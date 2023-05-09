@@ -4,7 +4,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  background-color: black;
+  background-color: #000000bf;
   min-width: 20rem;
   min-height: 20rem;
   border-radius: 10px;
@@ -27,7 +27,12 @@
   font-size: 1.5rem;
   margin: 1.5rem 0 3rem 0;
 }
-
+.modalTitle{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 2rem 0 3rem 0;
+  text-align: center;
+}
 .inputField {
   width: 100%;
   margin-bottom: 1rem;
@@ -79,6 +84,24 @@
 }
 
 .cancelButton {
-  border: 2px #fe2d55 solid;
-  color: #fe2d55;
+  border: 1px #fe2d55 solid;
+  border-radius: 10px;
+  width: 4rem;
+  height: 3rem;
+  align-self: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  
+}
+.cancelButton:hover{
+  border: 1px #fe2d55 solid;
+  border-radius: 10px;
+  width: 4rem;
+  height: 3rem;
+  align-self: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color:#fe2d55;
 }
